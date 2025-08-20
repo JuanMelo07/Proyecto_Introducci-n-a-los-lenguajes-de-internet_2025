@@ -12,14 +12,28 @@
     <form action="welcome.html" method="post"> <!--method = get, post, put, delete, patch-->
         
         <label for="genero">Género:</label>
+
+        <br>
+        <br>
+
         <label for="masculino">Masculino</label>
         <input type="radio" name="genero" value="masculino" required>
+
+        <br>
+
         <label for="femenino">Femenino</label>
         <input type="radio" name="genero" value="femenino" required>
+
+        <br>
+
         <label for="otro">Otro</label>
         <input type="radio" name="genero" value="otro" required>
 
-        <label for="pais">País</label>
+        <br>
+        <br>
+
+        <label for="pais">País: </label>
+
         <select name="pais" id="pais" required>
             <option value="">Selecciona un país</option>
             <option value="espana">España</option>
@@ -28,31 +42,33 @@
             <option value="colombia">Colombia</option>
         </select>
 
+        <br>
+        <br>
+
         <label for="nombre">Nombre:</label>
         <input type="text" name="nombre" id="nombre" required>
+
+        <br>
+        <br>
 
         <label for="edad">Edad:</label>
         <input type="number" name="edad" id="edad" required>
         
+        <br>
+        <br>
+
         <label for="email">Correo:</label>
         <input type="email" name="email" id="email" placeholder="example@mail.com" required>
+
+        <br>
+        <br>
 
         <label for="password">Contraseña:</label>
         <input type="password" name="password" id="password" placeholder="Benitonosabecocinar1234*" required>
 
-        <label for="intereses">Intereses:</label>
-        <label for="deportes">Deportes</label>
-        <input type="checkbox" name="intereses[]" id="deportes" value="deportes">
-        <label for="musica">Música</label>
-        <input type="checkbox" name="intereses[]" id="musica" value="musica">
-        <label for="lectura">Lectura</label>
-        <input type="checkbox" name="intereses[]" id="lectura" value="lectura">
+        <br>
+        <br>
 
-        <label for="terminos">
-            <input type="checkbox" name="terminos" id="terminos" value="terminos" required>
-            Acepto los términos y condiciones
-        </label>
-        
         <button type="submit" value="register" id="btn-register">Registrarse</button>
         
 
