@@ -1,0 +1,155 @@
+/* Configuración estandar */
+
+table {     
+    border-collapse: collapse;     
+    padding: 1px;          
+    width: 5.5%;  
+}
+
+
+th, td{
+    border: 1px solid white;
+}
+
+
+th:empty {
+    border: 1px solid white;
+    background-color: white;
+}
+
+
+/* Separación de colores dependiendo del grupo */
+
+.MA{
+    background-color: lightgreen;
+}
+
+.MA:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);     
+    background-color: #1c4600;     
+    color: white; 
+}
+
+.ML{
+    background-color: lightgoldenrodyellow;
+}
+
+.ML:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);     
+    background-color: #4b4900;     
+    color: white; 
+}
+
+.AC{
+    background-color: lightcoral;
+}
+
+.AC:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);     
+    background-color: #5e0000;     
+    color: white; 
+}
+
+.MAC{
+    background-color: lightpink;
+}
+
+.MAC:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);     
+    background-color: #4e0044;     
+    color: white; 
+}
+
+.NM{
+    background-color: lightskyblue;
+}
+
+.NM:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);     
+    background-color: #006b6b;     
+    color: white; 
+}
+
+.PD{
+    background-color: lightslategray;
+}
+
+.PD:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);     
+    background-color: #464646;     
+    color: white; 
+}
+
+.MT{
+    background-color: #ff95df;
+}
+
+.MT:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);     
+    background-color: #3a1d35;     
+    color: white; 
+}
+
+.GN{
+    background-color: #ff4e4e;
+}
+
+.GN:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);     
+    background-color: #3a0000;     
+    color: white; 
+}
+
+.MP{
+    background-color: #61f89b;
+}
+
+.MP:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);     
+    background-color: #003f03;     
+    color: white; 
+}
+
+.LN{
+    background-color: lightblue;
+}
+
+.LN:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);     
+    background-color: #002e58;     
+    color: white; 
+}
+
+/* Estilos de lista */
+
+ol{
+    list-style-type: none ;
+    margin-left: 0%;
+
+}
+
+/* Estilos por tipo de información */
+
+.num{
+    font-size: 75%;
+    text-align: left;
+}
+
+.sym{
+    font-size: 150%;
+    text-align: center;
+}
+
+.name{
+    text-align: center;
+}

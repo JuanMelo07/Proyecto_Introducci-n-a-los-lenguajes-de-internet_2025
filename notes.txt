@@ -1,0 +1,19 @@
+cuadricula: 18*9
+
+Diccionario:
+
+MA = Metales Alcalinos
+ML = Metaloides
+AC = Actinoides
+MAC = Metales Alcalinotérreos
+NM = No metales reactivos 
+PD = Propiedades desconocidas
+MT = Metales Transicionales
+GN = Gases Nobles
+MP = Metales Protransicionales
+LN = Lantánidos 
+
+num = Número Atómico
+sym = Símbolo Atómico
+name = Nombre del elemento
+
