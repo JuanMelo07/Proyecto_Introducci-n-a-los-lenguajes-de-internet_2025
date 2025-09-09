@@ -1,0 +1,140 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: olivedrab;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: olivedrab;
+    margin: auto;
+    gap: 2em;
+    padding: 1em;
+}
+
+.b1{
+
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.b1:hover{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.b2{
+
+    background-color: blue;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.b2:hover{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.b3{
+
+    background-color: red;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.b3:hover{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.articles{
+    align-items: center;
+
+}
+
+main{
+    text-align: center;
+    align-items: center;
+    font-family: cursive;
+
+}
+
+table{
+    border-style: dashed;
+    margin: 0 auto;
+}
+
+td{
+    border-style: dashed;
+    padding: 5px;
+    
+}
+
+footer{
+    display: flex;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: olivedrab;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bolder;
+    position: absolute;
+} 
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font: bolder;
+    text-align: center;
+}
+
+.description{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    display: grid;
+    place-items: center;
+    background-color: gainsboro;
+} 
+
+a:hover{
+    color: yellow;
+}
+
+.card:hover{
+    display: grid;
+    place-items: center;
+    background-color: gray;
+    color: antiquewhite;
+} 
+
+.error{
+    align-items: center;
+    text-align: center;
+}
+
+html{
+    min-height: 100%;
+    position: relative;    
+}
+
+.articles{
+    padding: 1em;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
